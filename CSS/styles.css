@@ -36,18 +36,24 @@ nav ul li a{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.5em;
+    font-family: "Oswald", sans-serif;
 }
-div.top{
+.top{
     clear:both;
-    padding-top: 130px;
+    padding-top: 150px;
     width: 100%;
     text-align: center;
     background-color: rgb(51, 50, 50);
     padding-bottom: 30px;
     border-bottom: 20px solid black;
     box-shadow: 10px 10px 5px #888888;
+    font-family: "Oswald", sans-serif;
 }
 
+.top h1{
+    font-size: 4em;
+    margin-bottom: 5px;
+}
 .top p{
  max-width: 1000px;
  text-align: center;
@@ -61,6 +67,7 @@ div.bottom{
     justify-content: space-around;
     background-color: rgb(51, 50, 50);
     border-bottom: 5px solid black;
+    font-family: "Oswald", sans-serif;
 }
 
 p, h1, h2{
@@ -87,4 +94,5 @@ footer p{
     background-color: rgb(51, 50, 50);
     box-shadow: 10px 10px 5px #888888;
     font-size: 1em;
+    font-family: "Oswald", sans-serif;
 }
